@@ -3,7 +3,7 @@ entries:
   alertmanager-webhook-adapter:
     - apiVersion: v2
       appVersion: 1.1.8
-      created: "2024-09-24T20:06:01.238789+08:00"
+      created: "2024-09-25T17:54:11.732003+08:00"
       description: helm chart for alertmanager webhook adapter
       digest: bbf9f592581bf32ec72a28c648db37792ae05cd6420a382490546338cc84d015
       maintainers:
@@ -16,7 +16,20 @@ entries:
   iftop-exporter:
     - apiVersion: v2
       appVersion: 0.1.0
-      created: "2024-09-24T20:06:01.239137+08:00"
+      created: "2024-09-25T17:54:11.732401+08:00"
+      description: helm chart for iftop-exporter
+      digest: f8ef5d039e79d035febca3025ac06ea858aff67d6dbe50806a53b904b255a19c
+      maintainers:
+        - email: bouogu@126.com
+          name: bougou
+      name: iftop-exporter
+      type: application
+      urls:
+        - oci://registry-1.docker.io/bougoucharts/iftop-exporter:v1.0.1
+      version: v1.0.1
+    - apiVersion: v2
+      appVersion: 0.1.0
+      created: "2024-09-25T17:54:11.732212+08:00"
       description: helm chart for iftop-exporter
       digest: a9f77ca41dfe4b5739524170dad8533cae16bf34aed7c02f8b118e7e2946b76b
       maintainers:
@@ -39,7 +52,7 @@ entries:
         artifacthub.io/operator: "true"
       apiVersion: v2
       appVersion: v0.76.1
-      created: "2024-09-24T20:06:01.259855+08:00"
+      created: "2024-09-25T17:54:11.750438+08:00"
       dependencies:
         - condition: crds.enabled
           name: crds
@@ -95,4 +108,4 @@ entries:
       urls:
         - oci://registry-1.docker.io/bougoucharts/kube-prometheus-stack:v62.7.0
       version: v62.7.0
-generated: "2024-09-24T20:06:01.238307+08:00"
+generated: "2024-09-25T17:54:11.731819+08:00"
