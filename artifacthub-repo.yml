@@ -1,0 +1,8 @@
+repositoryID: c440032b-7873-4f62-8a37-fc085c25cc82
+owners:
+  - name: Bougou
+    email: bougou@126.com
+# ignore: # (optional, packages that should not be indexed by Artifact Hub)
+#   - name: package1
+#   - name: package2 # Exact match
+#     version: beta # Regular expression (when omitted, all versions are ignored)
