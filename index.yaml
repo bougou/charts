@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   alertmanager-webhook-adapter:
     - apiVersion: v2
-      appVersion: 1.1.11
-      created: "2026-08-28T12:03:38.297134532Z"
+      appVersion: 1.1.12
+      created: "2026-08-28T12:12:13.066434308Z"
       description: helm chart for alertmanager webhook adapter
-      digest: 798c1c2e4a6369afc9ec9873a37afd8a7bf4e87a00069ccf9497e0508958fd79
+      digest: 256968fe76a75a160af9009a303f56b8b031e029f9b7a2ed70b461ccfcda1ef1
       maintainers:
         - name: bougou
       name: alertmanager-webhook-adapter
@@ -15,7 +15,7 @@ entries:
       version: 1.1.0
     - apiVersion: v2
       appVersion: 1.1.11
-      created: "2026-08-28T12:03:38.297393531Z"
+      created: "2026-08-28T12:12:13.066962266Z"
       description: helm chart for alertmanager webhook adapter
       digest: 58deba11cc989a33fef905aba43b6f693549a11c96993f4ef11dd0b26e4c1620
       maintainers:
@@ -27,7 +27,7 @@ entries:
       version: v1.0.2
     - apiVersion: v2
       appVersion: 1.1.10
-      created: "2026-08-28T12:03:38.297320662Z"
+      created: "2026-08-28T12:12:13.066806894Z"
       description: helm chart for alertmanager webhook adapter
       digest: 830af962094df2c03d1e1c893d34daa1449e04a4254ace7f77d12db5c6aca967
       maintainers:
@@ -39,7 +39,7 @@ entries:
       version: v1.0.1
     - apiVersion: v2
       appVersion: 1.1.8
-      created: "2026-08-28T12:03:38.297224147Z"
+      created: "2026-08-28T12:12:13.066598413Z"
       description: helm chart for alertmanager webhook adapter
       digest: bbf9f592581bf32ec72a28c648db37792ae05cd6420a382490546338cc84d015
       maintainers:
@@ -52,7 +52,7 @@ entries:
   iftop-exporter:
     - apiVersion: v2
       appVersion: v0.1.5
-      created: "2026-08-28T12:03:38.298027024Z"
+      created: "2026-08-28T12:12:13.068112653Z"
       description: helm chart for iftop-exporter
       digest: ce938b55bddb0ad6904f116dd49ce911e4fae95bb336715baf25332595f03809
       maintainers:
@@ -65,7 +65,7 @@ entries:
       version: v1.0.3
     - apiVersion: v2
       appVersion: v0.1.4
-      created: "2026-08-28T12:03:38.297846412Z"
+      created: "2026-08-28T12:12:13.067811634Z"
       description: helm chart for iftop-exporter
       digest: e69a1eb663faf39dce2ac04e9cb9aeb1308bb6fa294d86b6b0e27f118b4b98b1
       maintainers:
@@ -78,7 +78,7 @@ entries:
       version: v1.0.2
     - apiVersion: v2
       appVersion: 0.1.0
-      created: "2026-08-28T12:03:38.297694153Z"
+      created: "2026-08-28T12:12:13.067506348Z"
       description: helm chart for iftop-exporter
       digest: f8ef5d039e79d035febca3025ac06ea858aff67d6dbe50806a53b904b255a19c
       maintainers:
@@ -91,7 +91,7 @@ entries:
       version: v1.0.1
     - apiVersion: v2
       appVersion: 0.1.0
-      created: "2026-08-28T12:03:38.297550547Z"
+      created: "2026-08-28T12:12:13.067243306Z"
       description: helm chart for iftop-exporter
       digest: a9f77ca41dfe4b5739524170dad8533cae16bf34aed7c02f8b118e7e2946b76b
       maintainers:
@@ -114,7 +114,7 @@ entries:
         artifacthub.io/operator: "true"
       apiVersion: v2
       appVersion: v0.76.1
-      created: "2026-08-28T12:03:38.312497003Z"
+      created: "2026-08-28T12:12:13.093714012Z"
       dependencies:
         - condition: crds.enabled
           name: crds
@@ -170,4 +170,4 @@ entries:
       urls:
         - oci://registry-1.docker.io/bougoucharts/kube-prometheus-stack:v62.7.0
       version: v62.7.0
-generated: "2026-08-28T12:03:38.296672677Z"
+generated: "2026-08-28T12:12:13.06567197Z"
