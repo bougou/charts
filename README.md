@@ -14,10 +14,10 @@ $ helm search repo bougoucharts
 
 The following charts are available in this repository:
 
-| Chart Name | Latest Version | All Versions |
-|------------|----------------|--------------|
-| alertmanager-webhook-adapter | 1.1.1 | 1.1.1, 1.1.0, v1.0.2, v1.0.1, v1.0.0 |
-| calicoflow | 0.1.0 | 0.1.0 |
-| iftop-exporter | v1.0.3 | v1.0.3, v1.0.2, v1.0.1, v1.0.0 |
-| kube-prometheus-stack | v62.7.0 | v62.7.0 |
+| Chart Name | Latest Version |
+|------------|----------------|
+| alertmanager-webhook-adapter | 1.1.1 |
+| calicoflow | 0.1.0 |
+| iftop-exporter | v1.0.3 |
+| kube-prometheus-stack | v62.7.0 |
 

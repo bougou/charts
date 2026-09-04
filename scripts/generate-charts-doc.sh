@@ -33,8 +33,8 @@ generate_charts_section() {
     echo ""
 
     # Create table header
-    echo "| Chart Name | Latest Version | All Versions |"
-    echo "|------------|----------------|--------------|"
+    echo "| Chart Name | Latest Version |"
+    echo "|------------|----------------|"
 
     # Extract chart names and their latest versions from index.yaml
     chart_names=$(yq eval '.entries | keys | .[]' "$INDEX_FILE")
@@ -43,14 +43,7 @@ generate_charts_section() {
         # Get the latest version (first entry in the array)
         latest_version=$(yq eval ".entries.\"$chart_name\"[0].version" "$INDEX_FILE")
 
-        # Get all available versions
-        versions=$(yq eval ".entries.\"$chart_name\"[].version" "$INDEX_FILE")
-
-        # Format versions as comma-separated list
-        versions_list=$(echo "$versions" | tr '\n' ',' | sed 's/,$//' | sed 's/,/, /g')
-
-        # Create table row
-        echo "| $chart_name | $latest_version | $versions_list |"
+        echo "| $chart_name | $latest_version |"
     done
 
     echo ""
