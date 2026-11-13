@@ -17,7 +17,7 @@ The following charts are available in this repository:
 | Chart Name | Latest Version |
 |------------|----------------|
 | alertmanager-webhook-adapter | 1.1.1 |
-| calicoflow | 0.2.0 |
+| calicoflow | 0.3.0 |
 | iftop-exporter | v1.0.3 |
 | kube-prometheus-stack | v62.7.0 |
 
